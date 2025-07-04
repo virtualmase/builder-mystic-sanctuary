@@ -19,30 +19,31 @@ export default function Hero() {
                 variant="secondary"
                 className="glass-bg text-primary border-0 px-4 py-2 text-sm font-mono font-medium"
               >
-                &gt; Available for New Opportunities
+                &gt; Open to Crypto & Web3 Opportunities
               </Badge>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-mono tracking-tight text-white">
-                Marketing & SEO
+                Marketing Operations
                 <span className="gradient-text block text-shadow-glow">
-                  Operations Specialist
+                  for Crypto & Web3
                 </span>
               </h1>
             </div>
 
             <p className="text-xl text-gray-300 leading-relaxed max-w-2xl font-mono">
-              Experienced in landing page optimization, content management
-              systems, and SEO implementation with a proven track record in
-              Builder.io, Contentful, and web analytics platforms.
+              Growth marketing specialist with expertise in performance
+              marketing, conversion optimization, and data-driven campaigns.
+              Passionate about cryptocurrency and building the future of
+              decentralized finance.
             </p>
 
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 text-sm text-gray-400 font-mono">
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
-                <span>Remote / San Francisco Bay Area</span>
+                <span>New York, NY / Remote</span>
               </div>
               <div className="flex items-center gap-2">
                 <Calendar className="h-4 w-4" />
-                <span>Available Immediately</span>
+                <span>Ready for Gemini</span>
               </div>
             </div>
 
@@ -51,7 +52,7 @@ export default function Hero() {
                 size="lg"
                 className="bg-hero-gradient hover:opacity-90 text-white shadow-lg box-shadow-glow transition-all duration-200 font-mono"
               >
-                View Case Studies
+                View Crypto Marketing Experience
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
               <Button
@@ -59,7 +60,7 @@ export default function Hero() {
                 size="lg"
                 className="glass-bg border-glass-border text-white hover:bg-glass/80 font-mono"
               >
-                Download Resume
+                Apply to Gemini
               </Button>
             </div>
           </div>
@@ -69,13 +70,13 @@ export default function Hero() {
               <div className="space-y-6">
                 <div className="flex items-center justify-between">
                   <h3 className="text-lg font-semibold text-white font-mono">
-                    Recent Achievements
+                    Performance Marketing Results
                   </h3>
                   <Badge
                     variant="secondary"
                     className="bg-primary/20 text-primary border-0 font-mono"
                   >
-                    2024
+                    Web3 Ready
                   </Badge>
                 </div>
 
@@ -84,11 +85,10 @@ export default function Hero() {
                     <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0 glow-blue" />
                     <div>
                       <p className="font-medium text-white font-mono">
-                        85% Improvement in Page Speed
+                        $2M+ Ad Spend Managed
                       </p>
                       <p className="text-sm text-gray-300 font-mono">
-                        Optimized landing pages resulting in better Core Web
-                        Vitals
+                        Across Google Ads, Facebook, and Apple Search Ads
                       </p>
                     </div>
                   </div>
@@ -97,10 +97,10 @@ export default function Hero() {
                     <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0" />
                     <div>
                       <p className="font-medium text-white font-mono">
-                        40% Increase in Organic Traffic
+                        35% CAC Reduction
                       </p>
                       <p className="text-sm text-gray-300 font-mono">
-                        SEO optimization and metadata improvements
+                        Through conversion rate optimization and A/B testing
                       </p>
                     </div>
                   </div>
@@ -109,10 +109,10 @@ export default function Hero() {
                     <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0" />
                     <div>
                       <p className="font-medium text-white font-mono">
-                        15+ Successful Product Launches
+                        50+ Growth Experiments
                       </p>
                       <p className="text-sm text-gray-300 font-mono">
-                        Coordinated go-to-market campaigns and QA processes
+                        Data-driven testing across acquisition funnels
                       </p>
                     </div>
                   </div>
