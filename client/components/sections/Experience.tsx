@@ -26,10 +26,32 @@ const experiences = [
     technologies: ["React", "Three.js", "Web3", "Smart Contracts", "D3.js"],
   },
   {
+    title: "Senior Blockchain Engineer",
+    company: "Kraken",
+    location: "San Francisco, CA",
+    period: "2021 - 2022",
+    type: "Full-time",
+    description:
+      "Led blockchain infrastructure and security initiatives for one of the world's largest cryptocurrency exchanges, focusing on custody solutions, trading engine optimization, and regulatory compliance systems.",
+    achievements: [
+      "Architected multi-signature custody solutions securing $10B+ in digital assets",
+      "Optimized trading engine performance reducing latency by 40% for high-frequency trading",
+      "Implemented compliance monitoring systems ensuring SOC 2 Type II certification",
+      "Led security audits and incident response for critical exchange infrastructure",
+    ],
+    technologies: [
+      "Kubernetes",
+      "PostgreSQL",
+      "Redis",
+      "WebSocket APIs",
+      "Blockchain Integration",
+    ],
+  },
+  {
     title: "Security Protocol Developer",
     company: "DeFi Infrastructure",
     location: "Remote",
-    period: "2021 - 2022",
+    period: "2020 - 2021",
     type: "Contract",
     description:
       "Specialized in smart contract auditing, network architecture design, and security protocol implementation for various DeFi projects and blockchain networks.",
