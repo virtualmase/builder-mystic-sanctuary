@@ -83,6 +83,18 @@ export default {
           800: "#1e40af",
           900: "#1e3a8a",
         },
+        gemini: {
+          50: "#e6fbff",
+          100: "#ccf7ff",
+          200: "#99efff",
+          300: "#66e7ff",
+          400: "#33dfff",
+          500: "#00dcfa",
+          600: "#00b8d1",
+          700: "#008fa8",
+          800: "#00667f",
+          900: "#003d56",
+        },
         success: {
           50: "#f0fdf4",
           500: "#22c55e",
@@ -108,7 +120,7 @@ export default {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "hero-gradient":
-          "linear-gradient(135deg, hsl(217, 91%, 68%) 0%, hsl(271, 81%, 56%) 50%, hsl(194, 100%, 50%) 100%)",
+          "linear-gradient(135deg, hsl(188, 100%, 49%) 0%, hsl(188, 100%, 60%) 50%, hsl(188, 100%, 70%) 100%)",
         "glass-gradient":
           "linear-gradient(135deg, rgba(16, 16, 28, 0.8) 0%, rgba(16, 16, 28, 0.4) 100%)",
         "radial-purple":
