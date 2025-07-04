@@ -115,7 +115,7 @@ export default function Skills() {
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 font-mono">
             Blockchain Architecture Skills
           </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto font-mono">
+          <p className="text-xl text-readable-secondary max-w-3xl mx-auto font-mono">
             Deep technical expertise in blockchain infrastructure, on-chain
             analytics, and Web3 security protocols with data-driven approach to
             ecosystem growth.
@@ -135,7 +135,7 @@ export default function Skills() {
               <div className="text-3xl font-bold text-white mb-1 font-mono">
                 {achievement.metric}
               </div>
-              <div className="text-sm text-gray-300 font-mono">
+              <div className="text-sm text-readable-muted font-mono">
                 {achievement.label}
               </div>
             </div>
