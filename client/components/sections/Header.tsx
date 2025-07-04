@@ -21,16 +21,16 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="h-8 w-8 bg-hero-gradient rounded-lg flex items-center justify-center text-white font-bold font-mono">
-              G
+              M
             </div>
             <span className="font-bold text-xl text-white font-mono">
-              Growth Marketing
+              Mason
             </span>
             <Badge
               variant="secondary"
               className="bg-primary/20 text-primary text-xs border-0 font-mono"
             >
-              For Gemini
+              Blockchain Architect
             </Badge>
           </div>
 
