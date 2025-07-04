@@ -97,18 +97,18 @@ export default function Experience() {
           {experiences.map((exp, index) => (
             <Card
               key={index}
-              className="border border-gray-200 shadow-sm hover:shadow-md transition-shadow duration-200"
+              className="glass-bg border border-glass-border hover:box-shadow-glow transition-all duration-200"
             >
               <CardHeader>
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                   <div>
-                    <CardTitle className="text-xl text-gray-900 mb-2">
+                    <CardTitle className="text-xl text-white mb-2 font-mono">
                       {exp.title}
                     </CardTitle>
-                    <CardDescription className="text-lg font-medium text-gray-700 mb-3">
+                    <CardDescription className="text-lg font-medium text-gray-300 mb-3 font-mono">
                       {exp.company}
                     </CardDescription>
-                    <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 text-sm text-gray-600">
+                    <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 text-sm text-gray-400 font-mono">
                       <div className="flex items-center gap-2">
                         <Calendar className="h-4 w-4" />
                         <span>{exp.period}</span>
@@ -119,7 +119,7 @@ export default function Experience() {
                       </div>
                       <Badge
                         variant="outline"
-                        className="w-fit bg-white border-gray-200"
+                        className="w-fit glass-bg border-glass-border text-primary font-mono"
                       >
                         {exp.type}
                       </Badge>
@@ -128,12 +128,12 @@ export default function Experience() {
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-gray-300 leading-relaxed font-mono">
                   {exp.description}
                 </p>
 
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-3 flex items-center gap-2">
+                  <h4 className="font-semibold text-white mb-3 flex items-center gap-2 font-mono">
                     <TrendingUp className="h-4 w-4" />
                     Key Achievements
                   </h4>
@@ -141,9 +141,9 @@ export default function Experience() {
                     {exp.achievements.map((achievement, achIndex) => (
                       <li
                         key={achIndex}
-                        className="flex items-start gap-3 text-gray-600"
+                        className="flex items-start gap-3 text-gray-300 font-mono"
                       >
-                        <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-2.5 flex-shrink-0" />
+                        <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2.5 flex-shrink-0" />
                         <span>{achievement}</span>
                       </li>
                     ))}
@@ -151,7 +151,7 @@ export default function Experience() {
                 </div>
 
                 <div>
-                  <h4 className="font-semibold text-gray-900 mb-3">
+                  <h4 className="font-semibold text-white mb-3 font-mono">
                     Technologies Used
                   </h4>
                   <div className="flex flex-wrap gap-2">
@@ -159,7 +159,7 @@ export default function Experience() {
                       <Badge
                         key={techIndex}
                         variant="outline"
-                        className="bg-white border-gray-200 text-gray-700"
+                        className="glass-bg border-glass-border text-gray-300 font-mono"
                       >
                         {tech}
                       </Badge>
