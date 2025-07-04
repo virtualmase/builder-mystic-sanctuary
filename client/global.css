@@ -4,9 +4,8 @@
 
 @layer base {
   /**
-   * Tailwind CSS theme
-   * tailwind.config.ts expects the following color variables to be expressed as HSL values.
-   * A different format will require also updating the theme in tailwind.config.ts.
+   * Tailwind CSS theme inspired by Mason Nguyen's dark glass morphism design
+   * All colors expressed as HSL values for tailwind.config.ts compatibility.
   */
   :root {
     --background: 234 83% 4%;
@@ -39,30 +38,6 @@
 
     --radius: 0.75rem;
 
-    /* Glass morphism colors */
-    --glass: rgba(16, 16, 28, 0.6);
-    --glass-border: rgba(0, 191, 255, 0.15);
-    --gradient-purple: 271 81% 56%;
-    --gradient-blue: 217 91% 68%;
-    --gradient-cyan: 194 100% 50%;
-
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
-  }
-
     --sidebar-background: 234 50% 11%;
     --sidebar-foreground: 0 0% 100%;
     --sidebar-primary: 217 91% 68%;
@@ -81,16 +56,71 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family:
+      "Roboto Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+      "Liberation Mono", "Courier New", monospace;
   }
 
   html {
     scroll-behavior: smooth;
   }
+
+  /* Glass morphism background */
+  .glass-bg {
+    background: rgba(16, 16, 28, 0.6);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(0, 191, 255, 0.15);
+  }
+
+  /* Gradient text effects */
+  .gradient-text {
+    background: linear-gradient(
+      135deg,
+      hsl(217, 91%, 68%),
+      hsl(271, 81%, 56%),
+      hsl(194, 100%, 50%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Radial gradient backgrounds */
+  .radial-gradient-bg {
+    background:
+      radial-gradient(
+        circle at 20% 80%,
+        rgba(120, 119, 198, 0.3) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 80% 20%,
+        rgba(255, 119, 198, 0.3) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 40% 40%,
+        rgba(120, 219, 255, 0.2) 0%,
+        transparent 50%
+      );
+  }
 }
 
 @layer utilities {
-  .bg-grid-slate-100 {
-    background-image: linear-gradient(to right, rgb(241 245 249 / 0.5) 1px, transparent 1px),
-      linear-gradient(to bottom, rgb(241 245 249 / 0.5) 1px, transparent 1px);
+  .bg-grid-dark {
+    background-image:
+      linear-gradient(to right, rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+
+  .text-shadow-glow {
+    text-shadow: 0 0 20px rgba(96, 165, 250, 0.5);
+  }
+
+  .box-shadow-glow {
+    box-shadow:
+      0 0 20px rgba(96, 165, 250, 0.2),
+      0 0 40px rgba(138, 43, 226, 0.1);
   }
 }
