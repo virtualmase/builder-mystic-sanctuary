@@ -103,4 +103,16 @@
   body {
     @apply bg-background text-foreground;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .bg-grid-slate-100 {
+    background-image:
+      linear-gradient(to right, rgb(241 245 249 / 0.5) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(241 245 249 / 0.5) 1px, transparent 1px);
+  }
 }
