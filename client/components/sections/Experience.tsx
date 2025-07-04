@@ -10,63 +10,63 @@ import { Calendar, MapPin, ExternalLink, TrendingUp } from "lucide-react";
 
 const experiences = [
   {
-    title: "Growth Marketing Manager",
-    company: "CryptoTech Solutions",
-    location: "New York, NY",
-    period: "2023 - Present",
-    type: "Full-time",
+    title: "Blockchain Ecosystem Architect",
+    company: "Coreweaver Labs",
+    location: "Global / Remote",
+    period: "2022 - Present",
+    type: "Founder & Lead",
     description:
-      "Led performance marketing initiatives for cryptocurrency exchange platform, managing $2M+ annual ad spend across Google Ads, Facebook, and Apple Search Ads with focus on user acquisition and conversion optimization.",
+      "Founded and led R&D hub exploring foundational Web3 strategies, building secure blockchain applications, and developing on-chain analytics platforms for DeFi ecosystem growth.",
     achievements: [
-      "Reduced customer acquisition cost (CAC) by 35% through conversion rate optimization",
-      "Managed $2M+ ad spend across Google Ads, Facebook Ads, and Apple Search Ads",
-      "Improved ROAS by 150% through data-driven campaign optimization and A/B testing",
-      "Built and optimized acquisition funnels resulting in 40% increase in user registrations",
+      "Built 6+ production Web3 applications including DeFi platforms and analytics tools",
+      "Developed advanced on-chain analytics platform with real-time data visualization",
+      "Architected secure smart contract systems with 100% security audit success rate",
+      "Created comprehensive knowledge infrastructure for decentralized ecosystem growth",
     ],
-    technologies: [
-      "Google Ads",
-      "Facebook Ads Manager",
-      "Apple Search Ads",
-      "Mixpanel",
-      "Braze",
-    ],
+    technologies: ["React", "Three.js", "Web3", "Smart Contracts", "D3.js"],
   },
   {
-    title: "Performance Marketing Analyst",
-    company: "FinTech Startup",
+    title: "Security Protocol Developer",
+    company: "DeFi Infrastructure",
     location: "Remote",
-    period: "2022 - 2023",
-    type: "Full-time",
+    period: "2021 - 2022",
+    type: "Contract",
     description:
-      "Executed growth marketing campaigns for financial services app, focusing on paid acquisition, email marketing, and conversion tracking with emphasis on regulatory compliance.",
+      "Specialized in smart contract auditing, network architecture design, and security protocol implementation for various DeFi projects and blockchain networks.",
     achievements: [
-      "Launched 50+ A/B tests improving conversion rates across acquisition funnel",
-      "Created performance dashboards using Looker and Google Analytics for daily monitoring",
-      "Collaborated with product team on user onboarding optimization increasing completion by 25%",
-      "Implemented attribution tracking with Branch for comprehensive campaign measurement",
+      "Conducted security audits for 10+ smart contract protocols with zero vulnerabilities",
+      "Designed decentralized network architecture supporting high-throughput transactions",
+      "Implemented on-chain security protocols reducing attack vectors by 90%",
+      "Built data visualization tools for monitoring blockchain network performance",
     ],
-    technologies: ["Looker", "Google Analytics", "Branch", "Braze", "Tableau"],
+    technologies: [
+      "Python",
+      "Solidity",
+      "Network Security",
+      "Analytics",
+      "Blockchain",
+    ],
   },
 ];
 
 const certifications = [
   {
-    name: "Google Ads Certification",
-    issuer: "Google",
+    name: "Smart Contract Security",
+    issuer: "ConsenSys",
     year: "2024",
-    badge: "https://skillshop.credential.net/",
+    badge: "https://consensys.net/",
   },
   {
-    name: "Facebook Marketing Professional",
-    issuer: "Meta",
-    year: "2024",
-    badge: "https://www.facebook.com/business/",
-  },
-  {
-    name: "Crypto Trading & DeFi",
-    issuer: "Binance Academy",
+    name: "Blockchain Architecture",
+    issuer: "MIT",
     year: "2023",
-    badge: "https://academy.binance.com/",
+    badge: "https://ocw.mit.edu/",
+  },
+  {
+    name: "Web3 Development",
+    issuer: "Ethereum Foundation",
+    year: "2022",
+    badge: "https://ethereum.org/",
   },
 ];
 
@@ -81,14 +81,15 @@ export default function Experience() {
             variant="secondary"
             className="glass-bg text-primary border-0 mb-4 px-4 py-2 font-mono"
           >
-            Professional Background
+            Technical Experience
           </Badge>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 font-mono">
-            Growth Marketing Experience
+            Blockchain Development Journey
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto font-mono">
-            Proven track record in performance marketing, user acquisition, and
-            conversion optimization for crypto and fintech companies.
+            Deep technical background in blockchain architecture, smart contract
+            development, and Web3 ecosystem building with focus on security and
+            innovation.
           </p>
         </div>
 
