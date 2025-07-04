@@ -104,7 +104,7 @@ export default function Header() {
 
           {/* Mobile menu button */}
           <button
-            className="md:hidden p-2 text-gray-600 hover:text-gray-900 transition-colors"
+            className="md:hidden p-2 text-gray-300 hover:text-white transition-colors"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? (
@@ -117,46 +117,46 @@ export default function Header() {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden border-t border-gray-200 py-4">
+          <div className="md:hidden border-t border-glass-border py-4">
             <div className="space-y-4">
               <a
                 href="#skills"
-                className="block px-4 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors"
+                className="block px-4 py-2 text-gray-300 hover:text-white hover:bg-white/10 rounded-md transition-colors font-mono"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Skills
               </a>
               <a
                 href="#experience"
-                className="block px-4 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors"
+                className="block px-4 py-2 text-gray-300 hover:text-white hover:bg-white/10 rounded-md transition-colors font-mono"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Experience
               </a>
               <a
                 href="#case-study"
-                className="block px-4 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-50 rounded-md transition-colors"
+                className="block px-4 py-2 text-gray-300 hover:text-white hover:bg-white/10 rounded-md transition-colors font-mono"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Case Studies
               </a>
-              <div className="px-4 pt-4 border-t border-gray-200">
+              <div className="px-4 pt-4 border-t border-glass-border">
                 <div className="flex items-center space-x-4 mb-4">
                   <a
                     href="mailto:contact@marketingpro.com"
-                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    className="text-gray-300 hover:text-white transition-colors"
                   >
                     <Mail className="h-5 w-5" />
                   </a>
                   <a
                     href="https://linkedin.com"
-                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    className="text-gray-300 hover:text-white transition-colors"
                   >
                     <Linkedin className="h-5 w-5" />
                   </a>
                   <a
                     href="https://github.com"
-                    className="text-gray-600 hover:text-gray-900 transition-colors"
+                    className="text-gray-300 hover:text-white transition-colors"
                   >
                     <Github className="h-5 w-5" />
                   </a>
@@ -165,14 +165,14 @@ export default function Header() {
                   <Button
                     variant="outline"
                     size="sm"
-                    className="w-full border-gray-300 hover:bg-gray-50"
+                    className="w-full glass-bg border-glass-border text-white hover:bg-white/10 font-mono"
                   >
                     <Download className="mr-2 h-4 w-4" />
                     Download Resume
                   </Button>
                   <Button
                     size="sm"
-                    className="w-full bg-primary hover:bg-primary/90 text-white"
+                    className="w-full bg-hero-gradient hover:opacity-90 text-white font-mono"
                   >
                     Contact Me
                   </Button>
