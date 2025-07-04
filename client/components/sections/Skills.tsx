@@ -23,55 +23,54 @@ import {
 
 const skillCategories = [
   {
-    title: "Performance Marketing",
-    description:
-      "Paid advertising and user acquisition across digital channels",
-    icon: <Target className="h-6 w-6" />,
+    title: "Blockchain & Web3",
+    description: "Ecosystem development and security architecture",
+    icon: <Code className="h-6 w-6" />,
     skills: [
-      "Google Ads",
-      "Facebook Ads",
-      "Apple Search Ads",
-      "TikTok Ads",
-      "Twitter Ads",
+      "Blockchain Ecosystem Development",
+      "On-chain Security",
+      "DLT Fundamentals",
+      "Smart Contract Auditing",
+      "DeFi Protocols",
     ],
     color: "bg-primary",
   },
   {
-    title: "Marketing Analytics",
-    description: "Data analysis and reporting for growth optimization",
+    title: "Data & Analytics",
+    description: "On-chain analytics and performance metrics",
     icon: <BarChart3 className="h-6 w-6" />,
     skills: [
-      "Mixpanel",
-      "Looker",
-      "Google Analytics",
-      "Branch Attribution",
-      "Conversion Tracking",
+      "On-Chain Analytics",
+      "Data Visualization",
+      "Performance Metrics",
+      "Generative Search",
+      "Real-time Data",
     ],
     color: "bg-primary",
   },
   {
-    title: "Growth & Experimentation",
-    description: "A/B testing and conversion rate optimization",
-    icon: <TrendingUp className="h-6 w-6" />,
+    title: "Infrastructure",
+    description: "Decentralized systems and network architecture",
+    icon: <Settings className="h-6 w-6" />,
     skills: [
-      "A/B Testing",
-      "Conversion Rate Optimization",
-      "Funnel Analysis",
-      "User Segmentation",
-      "Growth Hacking",
+      "Knowledge Infrastructure",
+      "Decentralized Systems",
+      "Network Architecture",
+      "Security Protocols",
+      "Web3 Infrastructure",
     ],
     color: "bg-primary",
   },
   {
-    title: "Marketing Automation",
-    description: "Email, push, and lifecycle marketing campaigns",
-    icon: <Zap className="h-6 w-6" />,
+    title: "Strategy & Growth",
+    description: "Technical marketing and ecosystem growth",
+    icon: <Target className="h-6 w-6" />,
     skills: [
-      "Braze",
-      "Email Marketing",
-      "Push Notifications",
-      "In-App Messaging",
-      "Customer Journeys",
+      "Ecosystem Growth",
+      "Content Strategy",
+      "Digital Asset Strategy",
+      "Community Building",
+      "Technical Marketing",
     ],
     color: "bg-primary",
   },
@@ -79,23 +78,23 @@ const skillCategories = [
 
 const achievements = [
   {
-    metric: "$2M+",
-    label: "Ad Spend Managed",
-    icon: <Target className="h-5 w-5" />,
+    metric: "6+",
+    label: "Web3 Applications",
+    icon: <Code className="h-5 w-5" />,
   },
   {
-    metric: "35%",
-    label: "CAC Reduction",
+    metric: "100%",
+    label: "Security Audits Passed",
     icon: <TrendingUp className="h-5 w-5" />,
   },
   {
-    metric: "150%",
-    label: "ROAS Improvement",
+    metric: "5+",
+    label: "Blockchain Networks",
     icon: <BarChart3 className="h-5 w-5" />,
   },
   {
-    metric: "50+",
-    label: "A/B Tests Run",
+    metric: "3 Years",
+    label: "DeFi Experience",
     icon: <Zap className="h-5 w-5" />,
   },
 ];
@@ -111,15 +110,15 @@ export default function Skills() {
             variant="secondary"
             className="glass-bg text-primary border-0 mb-4 px-4 py-2 font-mono"
           >
-            Growth Marketing Expertise
+            Core Expertise & Capabilities
           </Badge>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 font-mono">
-            Performance Marketing Skills
+            Blockchain Architecture Skills
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto font-mono">
-            Data-driven growth marketing expertise with focus on user
-            acquisition, conversion optimization, and performance analytics for
-            crypto & fintech.
+            Deep technical expertise in blockchain infrastructure, on-chain
+            analytics, and Web3 security protocols with data-driven approach to
+            ecosystem growth.
           </p>
         </div>
 
