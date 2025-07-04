@@ -23,74 +23,80 @@ import {
 
 const skillCategories = [
   {
-    title: "CMS & No-Code Platforms",
+    title: "Performance Marketing",
     description:
-      "Experience with modern content management and website building tools",
-    icon: <Code className="h-6 w-6" />,
-    skills: ["Builder.io", "Contentful", "Webflow", "WordPress", "Notion"],
-    color: "bg-blue-500",
-  },
-  {
-    title: "SEO & Web Analytics",
-    description:
-      "Search engine optimization and performance monitoring expertise",
-    icon: <Search className="h-6 w-6" />,
-    skills: [
-      "Google Analytics 4",
-      "Search Console",
-      "Looker",
-      "Metadata Optimization",
-      "Core Web Vitals",
-    ],
-    color: "bg-green-500",
-  },
-  {
-    title: "Marketing Operations",
-    description: "End-to-end campaign management and optimization",
+      "Paid advertising and user acquisition across digital channels",
     icon: <Target className="h-6 w-6" />,
     skills: [
-      "Go-to-Market Strategy",
-      "A/B Testing",
-      "CRO",
-      "Campaign URLs",
-      "Landing Page QA",
+      "Google Ads",
+      "Facebook Ads",
+      "Apple Search Ads",
+      "TikTok Ads",
+      "Twitter Ads",
     ],
-    color: "bg-purple-500",
+    color: "bg-primary",
   },
   {
-    title: "Web Operations",
-    description: "Technical processes and workflow optimization",
-    icon: <Settings className="h-6 w-6" />,
+    title: "Marketing Analytics",
+    description: "Data analysis and reporting for growth optimization",
+    icon: <BarChart3 className="h-6 w-6" />,
     skills: [
-      "Localization Workflows",
-      "Multi-language QA",
-      "Redirects Management",
-      "Internal Linking",
+      "Mixpanel",
+      "Looker",
+      "Google Analytics",
+      "Branch Attribution",
+      "Conversion Tracking",
     ],
-    color: "bg-orange-500",
+    color: "bg-primary",
+  },
+  {
+    title: "Growth & Experimentation",
+    description: "A/B testing and conversion rate optimization",
+    icon: <TrendingUp className="h-6 w-6" />,
+    skills: [
+      "A/B Testing",
+      "Conversion Rate Optimization",
+      "Funnel Analysis",
+      "User Segmentation",
+      "Growth Hacking",
+    ],
+    color: "bg-primary",
+  },
+  {
+    title: "Marketing Automation",
+    description: "Email, push, and lifecycle marketing campaigns",
+    icon: <Zap className="h-6 w-6" />,
+    skills: [
+      "Braze",
+      "Email Marketing",
+      "Push Notifications",
+      "In-App Messaging",
+      "Customer Journeys",
+    ],
+    color: "bg-primary",
   },
 ];
 
 const achievements = [
   {
-    metric: "85%",
-    label: "Page Speed Improvement",
-    icon: <Zap className="h-5 w-5" />,
-  },
-  {
-    metric: "40%",
-    label: "Organic Traffic Growth",
-    icon: <TrendingUp className="h-5 w-5" />,
-  },
-  {
-    metric: "15+",
-    label: "Product Launches",
+    metric: "$2M+",
+    label: "Ad Spend Managed",
     icon: <Target className="h-5 w-5" />,
   },
   {
-    metric: "99.9%",
-    label: "QA Accuracy Rate",
-    icon: <FileText className="h-5 w-5" />,
+    metric: "35%",
+    label: "CAC Reduction",
+    icon: <TrendingUp className="h-5 w-5" />,
+  },
+  {
+    metric: "150%",
+    label: "ROAS Improvement",
+    icon: <BarChart3 className="h-5 w-5" />,
+  },
+  {
+    metric: "50+",
+    label: "A/B Tests Run",
+    icon: <Zap className="h-5 w-5" />,
   },
 ];
 
@@ -105,14 +111,15 @@ export default function Skills() {
             variant="secondary"
             className="glass-bg text-primary border-0 mb-4 px-4 py-2 font-mono"
           >
-            Core Competencies
+            Growth Marketing Expertise
           </Badge>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 font-mono">
-            Skills & Expertise
+            Performance Marketing Skills
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto font-mono">
-            Comprehensive experience across marketing technology, SEO
-            optimization, and web operations with a focus on measurable results.
+            Data-driven growth marketing expertise with focus on user
+            acquisition, conversion optimization, and performance analytics for
+            crypto & fintech.
           </p>
         </div>
 
