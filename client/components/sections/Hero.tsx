@@ -29,14 +29,14 @@ export default function Hero() {
               </h1>
             </div>
 
-            <p className="text-xl text-gray-300 leading-relaxed max-w-2xl font-mono">
+            <p className="text-xl text-readable-secondary leading-relaxed max-w-2xl font-mono">
               Blockchain Security Architect transitioning to marketing
               operations. Deep expertise in on-chain analytics, DeFi protocols,
               and Web3 infrastructure with data-driven approach to growth
               marketing.
             </p>
 
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 text-sm text-gray-400 font-mono">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 text-sm text-readable-muted font-mono">
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
                 <span>Global / Remote</span>
@@ -87,7 +87,7 @@ export default function Hero() {
                       <p className="font-medium text-white font-mono">
                         6+ Web3 Applications Built
                       </p>
-                      <p className="text-sm text-gray-300 font-mono">
+                      <p className="text-sm text-readable-secondary font-mono">
                         Including DeFi platforms, analytics tools, and
                         infrastructure
                       </p>
@@ -97,10 +97,10 @@ export default function Hero() {
                   <div className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0" />
                     <div>
-                      <p className="font-medium text-white font-mono">
+                      <p className="font-medium text-readable font-mono">
                         On-Chain Analytics Expertise
                       </p>
-                      <p className="text-sm text-gray-300 font-mono">
+                      <p className="text-sm text-readable-secondary font-mono">
                         Data visualization and performance metrics for DeFi
                       </p>
                     </div>
@@ -109,10 +109,10 @@ export default function Hero() {
                   <div className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0" />
                     <div>
-                      <p className="font-medium text-white font-mono">
+                      <p className="font-medium text-readable font-mono">
                         Security Protocol Design
                       </p>
-                      <p className="text-sm text-gray-300 font-mono">
+                      <p className="text-sm text-readable-secondary font-mono">
                         Smart contract auditing and decentralized system
                         architecture
                       </p>
