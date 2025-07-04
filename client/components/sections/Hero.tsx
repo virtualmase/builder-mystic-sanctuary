@@ -19,7 +19,7 @@ export default function Hero() {
                 variant="secondary"
                 className="glass-bg text-primary border-0 px-4 py-2 text-sm font-mono font-medium"
               >
-                > Available for New Opportunities
+                &gt; Available for New Opportunities
               </Badge>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-mono tracking-tight text-white">
                 Marketing & SEO
