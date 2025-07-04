@@ -183,53 +183,55 @@ export default function Skills() {
         </div>
 
         {/* Additional Qualifications */}
-        <div className="mt-16 bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 border border-blue-100">
+        <div className="mt-16 glass-bg rounded-2xl p-8 border border-glass-border">
           <div className="text-center mb-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Additional Qualifications
+            <h3 className="text-2xl font-bold text-white mb-4 font-mono">
+              Crypto & Web3 Expertise
             </h3>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Beyond technical skills, I bring strong organizational abilities
-              and collaborative experience working with cross-functional teams.
+            <p className="text-gray-300 max-w-2xl mx-auto font-mono">
+              Deep understanding of cryptocurrency ecosystem, DeFi protocols,
+              and Web3 marketing strategies with passion for blockchain
+              innovation.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="text-center">
-              <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-100 mb-4">
-                <Users className="h-8 w-8 text-blue-500 mx-auto" />
+              <div className="glass-bg p-4 rounded-lg border border-glass-border mb-4">
+                <Globe className="h-8 w-8 text-primary mx-auto" />
               </div>
-              <h4 className="font-semibold text-gray-900 mb-2">
-                Cross-Functional Collaboration
+              <h4 className="font-semibold text-white mb-2 font-mono">
+                Crypto Market Knowledge
               </h4>
-              <p className="text-sm text-gray-600">
-                Experience working with marketing, design, product, and
-                communications teams
+              <p className="text-sm text-gray-300 font-mono">
+                Understanding of DeFi, trading, custody, and regulatory
+                landscape across crypto markets
               </p>
             </div>
 
             <div className="text-center">
-              <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-100 mb-4">
-                <BarChart3 className="h-8 w-8 text-green-500 mx-auto" />
+              <div className="glass-bg p-4 rounded-lg border border-glass-border mb-4">
+                <BarChart3 className="h-8 w-8 text-primary mx-auto" />
               </div>
-              <h4 className="font-semibold text-gray-900 mb-2">
-                Performance Monitoring
+              <h4 className="font-semibold text-white mb-2 font-mono">
+                Fintech Experience
               </h4>
-              <p className="text-sm text-gray-600">
-                Regular reporting and analysis to drive data-informed
-                optimizations
+              <p className="text-sm text-gray-300 font-mono">
+                Growth marketing for financial services with focus on compliance
+                and user acquisition
               </p>
             </div>
 
             <div className="text-center">
-              <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-100 mb-4">
-                <Wrench className="h-8 w-8 text-purple-500 mx-auto" />
+              <div className="glass-bg p-4 rounded-lg border border-glass-border mb-4">
+                <Users className="h-8 w-8 text-primary mx-auto" />
               </div>
-              <h4 className="font-semibold text-gray-900 mb-2">
-                Process Improvement
+              <h4 className="font-semibold text-white mb-2 font-mono">
+                Community Building
               </h4>
-              <p className="text-sm text-gray-600">
-                Passion for optimizing workflows and implementing best practices
+              <p className="text-sm text-gray-300 font-mono">
+                Experience with Discord, Twitter, and crypto community
+                engagement strategies
               </p>
             </div>
           </div>
