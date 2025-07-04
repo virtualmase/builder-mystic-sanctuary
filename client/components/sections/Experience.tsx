@@ -10,84 +10,85 @@ import { Calendar, MapPin, ExternalLink, TrendingUp } from "lucide-react";
 
 const experiences = [
   {
-    title: "Marketing Operations Specialist",
-    company: "TechCorp Inc.",
-    location: "San Francisco, CA",
+    title: "Growth Marketing Manager",
+    company: "CryptoTech Solutions",
+    location: "New York, NY",
     period: "2023 - Present",
     type: "Full-time",
     description:
-      "Led landing page optimization and SEO initiatives, managing content across Builder.io and Contentful platforms while coordinating go-to-market launches.",
+      "Led performance marketing initiatives for cryptocurrency exchange platform, managing $2M+ annual ad spend across Google Ads, Facebook, and Apple Search Ads with focus on user acquisition and conversion optimization.",
     achievements: [
-      "Increased organic traffic by 40% through comprehensive SEO strategy",
-      "Optimized 25+ landing pages resulting in 28% conversion rate improvement",
-      "Managed content for 15+ product launches with 99.9% QA accuracy",
-      "Implemented localization workflows supporting 8 languages",
+      "Reduced customer acquisition cost (CAC) by 35% through conversion rate optimization",
+      "Managed $2M+ ad spend across Google Ads, Facebook Ads, and Apple Search Ads",
+      "Improved ROAS by 150% through data-driven campaign optimization and A/B testing",
+      "Built and optimized acquisition funnels resulting in 40% increase in user registrations",
     ],
     technologies: [
-      "Builder.io",
-      "Contentful",
-      "Google Analytics 4",
-      "Search Console",
-      "Looker",
+      "Google Ads",
+      "Facebook Ads Manager",
+      "Apple Search Ads",
+      "Mixpanel",
+      "Braze",
     ],
   },
   {
-    title: "Digital Marketing Intern",
-    company: "StartupXYZ",
+    title: "Performance Marketing Analyst",
+    company: "FinTech Startup",
     location: "Remote",
     period: "2022 - 2023",
-    type: "Internship",
+    type: "Full-time",
     description:
-      "Supported website operations and content management while learning SEO best practices and analytics reporting.",
+      "Executed growth marketing campaigns for financial services app, focusing on paid acquisition, email marketing, and conversion tracking with emphasis on regulatory compliance.",
     achievements: [
-      "Assisted with metadata optimization for 100+ pages",
-      "Created weekly performance reports using GA4 and Looker",
-      "Contributed to A/B testing initiatives improving CTR by 15%",
-      "Maintained WordPress site with 50+ pages of content",
+      "Launched 50+ A/B tests improving conversion rates across acquisition funnel",
+      "Created performance dashboards using Looker and Google Analytics for daily monitoring",
+      "Collaborated with product team on user onboarding optimization increasing completion by 25%",
+      "Implemented attribution tracking with Branch for comprehensive campaign measurement",
     ],
-    technologies: ["WordPress", "Google Analytics", "Webflow", "Notion"],
+    technologies: ["Looker", "Google Analytics", "Branch", "Braze", "Tableau"],
   },
 ];
 
 const certifications = [
   {
-    name: "Google Analytics 4 Certification",
+    name: "Google Ads Certification",
     issuer: "Google",
     year: "2024",
     badge: "https://skillshop.credential.net/",
   },
   {
-    name: "SEO Fundamentals",
-    issuer: "SEMrush Academy",
-    year: "2023",
-    badge: "https://www.semrush.com/academy/",
+    name: "Facebook Marketing Professional",
+    issuer: "Meta",
+    year: "2024",
+    badge: "https://www.facebook.com/business/",
   },
   {
-    name: "Builder.io Certified Developer",
-    issuer: "Builder.io",
-    year: "2024",
-    badge: "https://www.builder.io/",
+    name: "Crypto Trading & DeFi",
+    issuer: "Binance Academy",
+    year: "2023",
+    badge: "https://academy.binance.com/",
   },
 ];
 
 export default function Experience() {
   return (
-    <section className="py-20 bg-gray-50">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-20 bg-background relative">
+      <div className="absolute inset-0 bg-radial-blue opacity-20" />
+      <div className="absolute inset-0 bg-grid-dark opacity-10" />
+      <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <Badge
             variant="secondary"
-            className="bg-green-100 text-green-700 mb-4 px-4 py-2"
+            className="glass-bg text-primary border-0 mb-4 px-4 py-2 font-mono"
           >
             Professional Background
           </Badge>
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
-            Experience & Education
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 font-mono">
+            Growth Marketing Experience
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            A track record of driving measurable results in marketing
-            operations, SEO, and web development with industry-leading tools and
-            platforms.
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto font-mono">
+            Proven track record in performance marketing, user acquisition, and
+            conversion optimization for crypto and fintech companies.
           </p>
         </div>
 
