@@ -15,20 +15,20 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-gray-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
+    <header className="sticky top-0 z-50 w-full glass-bg backdrop-blur-md border-b border-glass-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="h-8 w-8 bg-hero-gradient rounded-lg flex items-center justify-center text-white font-bold">
+            <div className="h-8 w-8 bg-hero-gradient rounded-lg flex items-center justify-center text-white font-bold font-mono">
               M
             </div>
-            <span className="font-bold text-xl text-gray-900">
+            <span className="font-bold text-xl text-white font-mono">
               Marketing Pro
             </span>
             <Badge
               variant="secondary"
-              className="bg-green-100 text-green-700 text-xs"
+              className="bg-primary/20 text-primary text-xs border-0 font-mono"
             >
               Available
             </Badge>
@@ -40,7 +40,7 @@ export default function Header() {
               <NavigationMenuItem>
                 <NavigationMenuLink
                   href="#skills"
-                  className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium text-gray-600 transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50"
+                  className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium font-mono text-gray-300 transition-colors hover:bg-white/10 hover:text-white focus:bg-white/10 focus:text-white focus:outline-none disabled:pointer-events-none disabled:opacity-50"
                 >
                   Skills
                 </NavigationMenuLink>
@@ -48,7 +48,7 @@ export default function Header() {
               <NavigationMenuItem>
                 <NavigationMenuLink
                   href="#experience"
-                  className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium text-gray-600 transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50"
+                  className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium font-mono text-gray-300 transition-colors hover:bg-white/10 hover:text-white focus:bg-white/10 focus:text-white focus:outline-none disabled:pointer-events-none disabled:opacity-50"
                 >
                   Experience
                 </NavigationMenuLink>
@@ -56,7 +56,7 @@ export default function Header() {
               <NavigationMenuItem>
                 <NavigationMenuLink
                   href="#case-study"
-                  className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium text-gray-600 transition-colors hover:bg-gray-100 hover:text-gray-900 focus:bg-gray-100 focus:text-gray-900 focus:outline-none disabled:pointer-events-none disabled:opacity-50"
+                  className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium font-mono text-gray-300 transition-colors hover:bg-white/10 hover:text-white focus:bg-white/10 focus:text-white focus:outline-none disabled:pointer-events-none disabled:opacity-50"
                 >
                   Case Studies
                 </NavigationMenuLink>
@@ -69,19 +69,19 @@ export default function Header() {
             <div className="flex items-center space-x-2">
               <a
                 href="mailto:contact@marketingpro.com"
-                className="text-gray-600 hover:text-gray-900 transition-colors"
+                className="text-gray-300 hover:text-white transition-colors"
               >
                 <Mail className="h-5 w-5" />
               </a>
               <a
                 href="https://linkedin.com"
-                className="text-gray-600 hover:text-gray-900 transition-colors"
+                className="text-gray-300 hover:text-white transition-colors"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
                 href="https://github.com"
-                className="text-gray-600 hover:text-gray-900 transition-colors"
+                className="text-gray-300 hover:text-white transition-colors"
               >
                 <Github className="h-5 w-5" />
               </a>
@@ -89,14 +89,14 @@ export default function Header() {
             <Button
               variant="outline"
               size="sm"
-              className="border-gray-300 hover:bg-gray-50"
+              className="glass-bg border-glass-border text-white hover:bg-white/10 font-mono"
             >
               <Download className="mr-2 h-4 w-4" />
               Resume
             </Button>
             <Button
               size="sm"
-              className="bg-primary hover:bg-primary/90 text-white"
+              className="bg-hero-gradient hover:opacity-90 text-white font-mono"
             >
               Contact
             </Button>
