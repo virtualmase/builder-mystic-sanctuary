@@ -10,20 +10,28 @@ import { Calendar, MapPin, ExternalLink, TrendingUp } from "lucide-react";
 
 const experiences = [
   {
-    title: "Blockchain Ecosystem Architect",
+    title: "Founder & Chief Architect",
     company: "Coreweaver Labs",
     location: "Global / Remote",
     period: "2022 - Present",
     type: "Founder & Lead",
     description:
-      "Founded and led R&D hub exploring foundational Web3 strategies, building secure blockchain applications, and developing on-chain analytics platforms for DeFi ecosystem growth.",
+      "Founded R&D laboratory building decentralized AI systems for smarter cities and quantum computing integration. Architected 'Archie' AI navigational system and comprehensive Web3 infrastructure across three technology layers.",
     achievements: [
-      "Built 6+ production Web3 applications including DeFi platforms and analytics tools",
-      "Developed advanced on-chain analytics platform with real-time data visualization",
-      "Architected secure smart contract systems with 100% security audit success rate",
-      "Created comprehensive knowledge infrastructure for decentralized ecosystem growth",
+      "Built 9+ production applications across Infrastructure, Search+Compute, and Interface layers",
+      "Developed 'Archie' AI system with quantum insights dashboard and post-quantum security",
+      "Architected Lighthouse Node network with 99.8% uptime and real-time signal processing",
+      "Created Mycelium Network routing system achieving 99.8% network efficiency",
+      "Implemented post-quantum cryptography with secure distributed systems architecture",
+      "Built CQF Visualizer and Oracle Engine for complex data visualization and analytics",
     ],
-    technologies: ["React", "Three.js", "Web3", "Smart Contracts", "D3.js"],
+    technologies: [
+      "Quantum Computing",
+      "AI/ML Systems",
+      "Post-Quantum Cryptography",
+      "React/Three.js",
+      "Decentralized Networks",
+    ],
   },
   {
     title: "Technical SEO Associate",
