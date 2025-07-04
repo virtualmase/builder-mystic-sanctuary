@@ -12,6 +12,20 @@ export default {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      mono: [
+        "Roboto Mono",
+        "ui-monospace",
+        "SFMono-Regular",
+        "Menlo",
+        "Monaco",
+        "Consolas",
+        "Liberation Mono",
+        "Courier New",
+        "monospace",
+      ],
+      display: ["Roboto Mono", "monospace"],
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -79,13 +93,37 @@ export default {
           500: "#f59e0b",
           600: "#d97706",
         },
+        glass: {
+          DEFAULT: "rgba(16, 16, 28, 0.6)",
+          border: "rgba(0, 191, 255, 0.15)",
+        },
+        glow: {
+          blue: "rgba(96, 165, 250, 0.5)",
+          purple: "rgba(138, 43, 226, 0.5)",
+          cyan: "rgba(0, 191, 255, 0.5)",
+        },
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "hero-gradient":
-          "linear-gradient(135deg, hsl(217, 91%, 60%) 0%, hsl(225, 91%, 65%) 100%)",
+          "linear-gradient(135deg, hsl(217, 91%, 68%) 0%, hsl(271, 81%, 56%) 50%, hsl(194, 100%, 50%) 100%)",
+        "glass-gradient":
+          "linear-gradient(135deg, rgba(16, 16, 28, 0.8) 0%, rgba(16, 16, 28, 0.4) 100%)",
+        "radial-purple":
+          "radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%)",
+        "radial-pink":
+          "radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%)",
+        "radial-blue":
+          "radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.2) 0%, transparent 50%)",
+      },
+      backdropBlur: {
+        xs: "2px",
+        sm: "4px",
+        md: "12px",
+        lg: "16px",
+        xl: "24px",
       },
       borderRadius: {
         lg: "var(--radius)",
