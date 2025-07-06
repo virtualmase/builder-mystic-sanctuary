@@ -40,7 +40,7 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 text-sm text-gray-200 font-mono">
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4" />
-                <span>Available Globally / Remote</span>
+                <span>Available Globally</span>
               </div>
               <div className="flex items-center gap-2">
                 <Calendar className="h-4 w-4" />
@@ -71,7 +71,7 @@ export default function Hero() {
               <div className="space-y-6">
                 <div className="flex items-center justify-between">
                   <h3 className="text-lg font-semibold text-white font-mono">
-                    Full-Stack Value Stack
+                    Core Capabilities
                   </h3>
                   <Badge
                     variant="secondary"
