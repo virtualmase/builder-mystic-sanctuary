@@ -228,12 +228,14 @@ export default function Experience() {
                     {cert.name.split(" ")[0].charAt(0)}
                   </div>
                 </div>
-                <h4 className="font-semibold text-gray-900 mb-2">
+                <h4 className="font-bold text-white mb-2 font-mono">
                   {cert.name}
                 </h4>
-                <p className="text-sm text-gray-600 mb-2">{cert.issuer}</p>
-                <div className="flex items-center justify-center gap-2 text-xs text-gray-500">
-                  <Calendar className="h-3 w-3" />
+                <p className="text-sm text-gray-200 mb-2 font-mono">
+                  {cert.issuer}
+                </p>
+                <div className="flex items-center justify-center gap-2 text-sm text-gray-300 font-mono">
+                  <Calendar className="h-4 w-4" />
                   <span>{cert.year}</span>
                 </div>
               </div>
