@@ -175,7 +175,7 @@ export default function Experience() {
                     {exp.achievements.map((achievement, achIndex) => (
                       <li
                         key={achIndex}
-                        className="flex items-start gap-3 text-gray-300 font-mono"
+                        className="flex items-start gap-3 text-gray-100 font-mono"
                       >
                         <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2.5 flex-shrink-0" />
                         <span>{achievement}</span>

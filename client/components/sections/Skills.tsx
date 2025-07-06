@@ -147,7 +147,7 @@ export default function Skills() {
           {skillCategories.map((category, index) => (
             <Card
               key={index}
-              className="border border-gray-200 hover:shadow-lg transition-shadow duration-200"
+              className="glass-bg border border-glass-border hover:box-shadow-glow transition-all duration-200"
             >
               <CardHeader>
                 <div className="flex items-center gap-3 mb-2">
@@ -156,11 +156,11 @@ export default function Skills() {
                   >
                     {category.icon}
                   </div>
-                  <CardTitle className="text-xl text-gray-900">
+                  <CardTitle className="text-xl text-white font-mono">
                     {category.title}
                   </CardTitle>
                 </div>
-                <CardDescription className="text-gray-600">
+                <CardDescription className="text-gray-200 font-mono">
                   {category.description}
                 </CardDescription>
               </CardHeader>
@@ -170,7 +170,7 @@ export default function Skills() {
                     <Badge
                       key={skillIndex}
                       variant="outline"
-                      className="bg-white border-gray-200 text-gray-700 hover:bg-gray-50"
+                      className="glass-bg border-glass-border text-gray-200 hover:bg-white/10 font-mono"
                     >
                       {skill}
                     </Badge>
@@ -202,7 +202,7 @@ export default function Skills() {
               <h4 className="font-semibold text-white mb-2 font-mono">
                 Crypto Market Knowledge
               </h4>
-              <p className="text-sm text-gray-300 font-mono">
+              <p className="text-gray-100 font-mono">
                 Understanding of DeFi, trading, custody, and regulatory
                 landscape across crypto markets
               </p>
@@ -215,7 +215,7 @@ export default function Skills() {
               <h4 className="font-semibold text-white mb-2 font-mono">
                 Fintech Experience
               </h4>
-              <p className="text-sm text-gray-300 font-mono">
+              <p className="text-gray-100 font-mono">
                 Growth marketing for financial services with focus on compliance
                 and user acquisition
               </p>
@@ -228,7 +228,7 @@ export default function Skills() {
               <h4 className="font-semibold text-white mb-2 font-mono">
                 Community Building
               </h4>
-              <p className="text-sm text-gray-300 font-mono">
+              <p className="text-gray-100 font-mono">
                 Experience with Discord, Twitter, and crypto community
                 engagement strategies
               </p>
