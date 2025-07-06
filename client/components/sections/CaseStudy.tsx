@@ -22,13 +22,13 @@ import {
 
 const caseStudyData = {
   title: "Kraken Exchange Technical SEO Transformation",
-  subtitle: "85% Organic Traffic Growth + 40% Performance Improvement",
+  subtitle: "85% Organic Traffic Growth + 190+ International Regions Optimized",
   overview:
-    "Led comprehensive technical SEO optimization for one of the world's largest cryptocurrency exchanges, handling thousands of market and educational pages across 190+ international regions.",
+    "Led comprehensive technical SEO optimization for one of the world's largest cryptocurrency exchanges during 2021-2022, managing complex multi-language architecture with thousands of market and educational pages.",
   challenge:
-    "Kraken faced complex technical SEO challenges including vast dynamic architecture, global performance demands, structured data implementation for rich snippets, technical debt from frequent updates, and mobile-first requirements for real-time trading data.",
+    "Kraken's platform required optimization across vast dynamic architecture serving real-time trading data globally, with complex technical debt from rapid crypto market updates, mobile-first requirements for high-frequency trading, and compliance across 190+ international regions with varying regulatory requirements.",
   solution:
-    "Implemented advanced image optimization, WebP conversions, comprehensive hreflang coverage, Core Web Vitals improvements, and SEO automation dashboards while collaborating across content, UX, marketing, engineering, and security teams.",
+    "Executed systematic technical SEO transformation using advanced automation tools, comprehensive hreflang implementation, Core Web Vitals optimization, and cross-functional collaboration with engineering, security, and compliance teams to achieve measurable performance improvements.",
   metrics: [
     {
       value: "85%",
@@ -59,59 +59,79 @@ const caseStudyData = {
 
 const processSteps = [
   {
-    phase: "Discovery & Analysis",
+    phase: "Technical Architecture Audit",
+    duration: "3 weeks",
+    activities: [
+      "Comprehensive site crawl analysis using Screaming Frog and custom tools",
+      "Core Web Vitals assessment across thousands of trading pair pages",
+      "International hreflang audit covering 190+ regions",
+      "JavaScript rendering analysis for real-time market data",
+    ],
+    tools: [
+      "Google Search Console",
+      "PageSpeed Insights",
+      "Screaming Frog",
+      "Custom Scripts",
+    ],
+  },
+  {
+    phase: "Strategy & Framework Development",
     duration: "2 weeks",
     activities: [
-      "Conducted comprehensive site audit using GA4 and Search Console",
-      "Analyzed competitor SEO strategies and best practices",
-      "Evaluated current Builder.io and Contentful setup",
-      "Identified key performance bottlenecks and opportunities",
+      "Developed automated SEO monitoring and reporting framework",
+      "Created comprehensive schema markup strategy for financial products",
+      "Established Core Web Vitals optimization roadmap",
+      "Built cross-functional collaboration protocols with engineering teams",
     ],
-    tools: ["Google Analytics 4", "Search Console", "Looker", "Builder.io"],
+    tools: ["Looker Studio", "Python Scripts", "Schema.org", "Internal Tools"],
   },
   {
-    phase: "Strategy & Planning",
-    duration: "1 week",
+    phase: "Technical Implementation",
+    duration: "8 weeks",
     activities: [
-      "Developed comprehensive SEO strategy with metadata framework",
-      "Created content migration plan from legacy CMS to Builder.io",
-      "Established KPI tracking and reporting procedures",
-      "Coordinated with design and development teams",
+      "Implemented advanced image optimization and WebP conversion at scale",
+      "Deployed comprehensive hreflang structure for 190+ international regions",
+      "Optimized JavaScript rendering for search engine crawlability",
+      "Established automated technical debt monitoring systems",
     ],
-    tools: ["Notion", "Builder.io", "Contentful", "Project Management"],
+    tools: [
+      "CDN Optimization",
+      "Hreflang Validators",
+      "JavaScript Tools",
+      "Automation Scripts",
+    ],
   },
   {
-    phase: "Implementation",
-    duration: "6 weeks",
+    phase: "Performance Optimization",
+    duration: "4 weeks",
     activities: [
-      "Migrated 25+ landing pages to Builder.io with optimized templates",
-      "Implemented comprehensive metadata and alt text optimization",
-      "Set up redirect management and internal linking structure",
-      "Established localization workflows for 8 languages",
+      "Enhanced mobile-first design for high-frequency trading interfaces",
+      "Implemented advanced internal linking strategies for page authority distribution",
+      "Optimized crawl budget allocation across dynamic content sections",
+      "Created automated Core Web Vitals monitoring and alerting",
     ],
-    tools: ["Builder.io", "Contentful", "Google Tag Manager", "Webflow"],
+    tools: [
+      "Mobile Testing Tools",
+      "Link Analysis",
+      "Crawl Management",
+      "Performance Monitoring",
+    ],
   },
   {
-    phase: "Testing & QA",
-    duration: "2 weeks",
+    phase: "Automation & Scaling",
+    duration: "3 weeks",
     activities: [
-      "Conducted multi-language QA across all landing pages",
-      "Performed A/B testing on key conversion elements",
-      "Validated Core Web Vitals improvements",
-      "Tested campaign URLs and tracking implementation",
+      "Built automated SEO health monitoring dashboards",
+      "Implemented team efficiency workflows reducing manual tasks by 60%",
+      "Created comprehensive documentation and training materials",
+      "Established ongoing performance monitoring and optimization protocols",
     ],
-    tools: ["Builder.io", "Google Analytics", "Testing Tools", "QA Checklists"],
-  },
-  {
-    phase: "Launch & Monitoring",
-    duration: "1 week",
-    activities: [
-      "Coordinated go-to-market launch with marketing team",
-      "Implemented performance monitoring and reporting",
-      "Created documentation for ongoing maintenance",
-      "Trained team members on new workflows",
+    tools: [
+      "Dashboard Automation",
+      "Workflow Tools",
+      "Documentation",
+      "Training Systems",
     ],
-    tools: ["GA4", "Looker", "Builder.io", "Documentation"],
   },
 ];
 
@@ -162,29 +182,29 @@ export default function CaseStudy() {
 
         {/* Challenge & Solution */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-16">
-          <Card className="border border-gray-200">
+          <Card className="glass-bg border border-glass-border">
             <CardHeader>
-              <CardTitle className="text-xl text-gray-900 flex items-center gap-3">
-                <Target className="h-6 w-6 text-red-500" />
+              <CardTitle className="text-xl text-white flex items-center gap-3 font-mono">
+                <Target className="h-6 w-6 text-red-400" />
                 The Challenge
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-200 leading-relaxed font-mono">
                 {caseStudyData.challenge}
               </p>
             </CardContent>
           </Card>
 
-          <Card className="border border-gray-200">
+          <Card className="glass-bg border border-glass-border">
             <CardHeader>
-              <CardTitle className="text-xl text-gray-900 flex items-center gap-3">
-                <CheckCircle2 className="h-6 w-6 text-green-500" />
+              <CardTitle className="text-xl text-white flex items-center gap-3 font-mono">
+                <CheckCircle2 className="h-6 w-6 text-green-400" />
                 The Solution
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-200 leading-relaxed font-mono">
                 {caseStudyData.solution}
               </p>
             </CardContent>
