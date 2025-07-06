@@ -31,10 +31,10 @@ export default function Hero() {
             </div>
 
             <p className="text-xl text-white leading-relaxed max-w-2xl font-mono">
-              Where blockchain architecture meets marketing automation. Building
-              the future of growth operations with AI-powered insights, on-chain
-              analytics, and scalable Web3 marketing infrastructure that
-              traditional operators can't match.
+              Tactical execution specialist with proven experience in
+              Builder.io, Contentful, technical SEO, and go-to-market launches.
+              Expert in QA processes, cross-functional collaboration, and
+              supporting high-impact web operations at scale.
             </p>
 
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 text-sm text-readable-muted font-mono">
