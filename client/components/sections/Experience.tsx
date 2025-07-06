@@ -206,12 +206,12 @@ export default function Experience() {
         </div>
 
         {/* Certifications */}
-        <div className="bg-white rounded-2xl p-8 border border-gray-200">
+        <div className="glass-bg rounded-2xl p-8 border border-glass-border">
           <div className="text-center mb-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+            <h3 className="text-2xl font-bold text-white mb-4 font-mono">
               Certifications & Training
             </h3>
-            <p className="text-gray-600 max-w-2xl mx-auto">
+            <p className="text-gray-200 max-w-2xl mx-auto font-mono">
               Continuously learning and staying current with industry best
               practices and platform updates.
             </p>
@@ -221,7 +221,7 @@ export default function Experience() {
             {certifications.map((cert, index) => (
               <div
                 key={index}
-                className="text-center p-6 bg-gray-50 rounded-xl border border-gray-100 hover:shadow-md transition-shadow duration-200"
+                className="text-center p-6 glass-bg rounded-xl border border-glass-border hover:box-shadow-glow transition-all duration-200"
               >
                 <div className="bg-white p-4 rounded-lg shadow-sm border border-gray-200 mb-4 inline-block">
                   <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-500 rounded-lg flex items-center justify-center text-white font-bold text-lg">
@@ -242,19 +242,23 @@ export default function Experience() {
         </div>
 
         {/* Education */}
-        <div className="mt-12 bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 border border-blue-100">
+        <div className="mt-12 glass-bg rounded-2xl p-8 border border-glass-border">
           <div className="text-center">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">Education</h3>
+            <h3 className="text-2xl font-bold text-white mb-4 font-mono">
+              Education
+            </h3>
             <div className="max-w-md mx-auto">
-              <h4 className="font-semibold text-gray-900 text-lg mb-2">
+              <h4 className="font-bold text-primary text-lg mb-2 font-mono">
                 Bachelor of Science in Marketing
               </h4>
-              <p className="text-gray-600 mb-2">University of California</p>
-              <div className="flex items-center justify-center gap-2 text-sm text-gray-500">
+              <p className="text-gray-200 mb-2 font-mono">
+                University of California
+              </p>
+              <div className="flex items-center justify-center gap-2 text-sm text-gray-300 font-mono">
                 <Calendar className="h-4 w-4" />
                 <span>Graduated 2022</span>
               </div>
-              <p className="text-sm text-gray-600 mt-3">
+              <p className="text-sm text-gray-200 mt-3 font-mono">
                 Concentration in Digital Marketing & Analytics
               </p>
             </div>
