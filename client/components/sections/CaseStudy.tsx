@@ -21,38 +21,38 @@ import {
 } from "lucide-react";
 
 const caseStudyData = {
-  title: "E-commerce Landing Page Optimization",
-  subtitle: "From Builder.io Implementation to 40% Traffic Growth",
+  title: "Kraken Exchange Technical SEO Transformation",
+  subtitle: "85% Organic Traffic Growth + 40% Performance Improvement",
   overview:
-    "Led a comprehensive landing page optimization project that involved migrating from legacy CMS to Builder.io, implementing SEO best practices, and coordinating with cross-functional teams to achieve measurable business results.",
+    "Led comprehensive technical SEO optimization for one of the world's largest cryptocurrency exchanges, handling thousands of market and educational pages across 190+ international regions.",
   challenge:
-    "The company's legacy landing pages had poor performance scores, low conversion rates, and were difficult to maintain. The challenge was to modernize the infrastructure while improving both user experience and search engine visibility.",
+    "Kraken faced complex technical SEO challenges including vast dynamic architecture, global performance demands, structured data implementation for rich snippets, technical debt from frequent updates, and mobile-first requirements for real-time trading data.",
   solution:
-    "Implemented a data-driven approach using Builder.io for content management, comprehensive SEO optimization, and performance monitoring with detailed QA processes.",
+    "Implemented advanced image optimization, WebP conversions, comprehensive hreflang coverage, Core Web Vitals improvements, and SEO automation dashboards while collaborating across content, UX, marketing, engineering, and security teams.",
   metrics: [
     {
-      value: "40%",
-      label: "Organic Traffic Increase",
-      icon: <TrendingUp className="h-5 w-5" />,
-      color: "text-green-600",
-    },
-    {
       value: "85%",
-      label: "Page Speed Improvement",
+      label: "Organic Traffic Growth",
+      icon: <TrendingUp className="h-5 w-5" />,
+      color: "text-green-400",
+    },
+    {
+      value: "40%",
+      label: "Page Load Performance",
       icon: <Zap className="h-5 w-5" />,
-      color: "text-blue-600",
+      color: "text-blue-400",
     },
     {
-      value: "28%",
-      label: "Conversion Rate Boost",
+      value: "60%",
+      label: "Team Efficiency Gain",
       icon: <Target className="h-5 w-5" />,
-      color: "text-purple-600",
+      color: "text-purple-400",
     },
     {
-      value: "3mo",
-      label: "Project Timeline",
-      icon: <Clock className="h-5 w-5" />,
-      color: "text-orange-600",
+      value: "190+",
+      label: "Regions Optimized",
+      icon: <Globe className="h-5 w-5" />,
+      color: "text-cyan-400",
     },
   ],
 };
