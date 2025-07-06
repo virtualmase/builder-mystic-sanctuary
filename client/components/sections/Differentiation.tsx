@@ -103,7 +103,7 @@ const competitorComparison = [
 
 export default function Differentiation() {
   return (
-    <section className="py-20 bg-background relative">
+    <section id="gemini-fit" className="py-20 bg-background relative">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5" />
       <div className="absolute inset-0 bg-grid-dark opacity-15" />
 
@@ -113,15 +113,15 @@ export default function Differentiation() {
             variant="secondary"
             className="glass-bg text-primary border-0 mb-4 px-4 py-2 font-mono"
           >
-            Competitive Advantage
+            Why Gemini Should Hire Me
           </Badge>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 font-mono">
-            What Sets Me Apart
+            The Full-Stack Marketing Advantage
           </h2>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto font-mono">
-            The unique intersection of blockchain architecture expertise and
-            proven marketing operations success that creates unmatched value for
-            crypto companies.
+            The rare combination of proven crypto exchange experience, technical
+            architecture skills, and modern marketing operations expertise that
+            makes me uniquely qualified for Gemini's growth trajectory.
           </p>
         </div>
 
@@ -222,34 +222,33 @@ export default function Differentiation() {
           <div className="max-w-4xl mx-auto glass-bg rounded-2xl p-8 border border-glass-border">
             <Target className="h-12 w-12 text-primary mx-auto mb-6" />
             <h3 className="text-2xl font-bold text-white mb-4 font-mono">
-              The Perfect Fit for Gemini's Growth
+              Ready to Accelerate Gemini's Marketing Operations
             </h3>
             <p className="text-gray-200 font-mono leading-relaxed mb-6">
-              My unique combination of blockchain architecture expertise, proven
-              SEO results at a major crypto exchange, and advanced automation
-              capabilities makes me the ideal candidate to drive Gemini's
-              marketing operations forward. I bring both the technical
-              credibility to work with engineering teams and the marketing
-              operations experience to deliver measurable growth results.
+              As a full-stack founder who architected blockchain systems AND
+              scaled Kraken's technical SEO, I bring the unique combination
+              Gemini needs: deep crypto market understanding, proven marketing
+              operations results, and the technical expertise to bridge
+              engineering and growth teams seamlessly.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary font-mono">
-                  Technical + Marketing
+                  Crypto Exchange XP
                 </div>
-                <p className="text-gray-300 font-mono">Rare combination</p>
+                <p className="text-gray-300 font-mono">Kraken technical SEO</p>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary font-mono">
-                  Crypto Native
+                  Full-Stack Builder
                 </div>
-                <p className="text-gray-300 font-mono">Industry expertise</p>
+                <p className="text-gray-300 font-mono">9+ production apps</p>
               </div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-primary font-mono">
-                  Proven Results
+                  Modern Stack
                 </div>
-                <p className="text-gray-300 font-mono">Measurable impact</p>
+                <p className="text-gray-300 font-mono">AI + Automation ready</p>
               </div>
             </div>
           </div>
