@@ -84,22 +84,22 @@ const experiences = [
 
 const certifications = [
   {
-    name: "Smart Contract Security",
-    issuer: "ConsenSys",
-    year: "2024",
-    badge: "https://consensys.net/",
+    name: "SEO Fundamentals",
+    issuer: "Moz",
+    year: "2021",
+    badge: "https://moz.com/",
   },
   {
-    name: "Blockchain Architecture",
-    issuer: "MIT",
-    year: "2023",
-    badge: "https://ocw.mit.edu/",
+    name: "Technical SEO Certification",
+    issuer: "Ahrefs",
+    year: "2021",
+    badge: "https://ahrefs.com/",
   },
   {
-    name: "Web3 Development",
-    issuer: "Ethereum Foundation",
+    name: "Google Analytics Certified",
+    issuer: "Google",
     year: "2022",
-    badge: "https://ethereum.org/",
+    badge: "https://skillshop.credential.net/",
   },
 ];
 
