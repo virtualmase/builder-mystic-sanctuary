@@ -30,7 +30,7 @@ export default function Header() {
               variant="secondary"
               className="bg-primary/20 text-primary text-xs border-0 font-mono"
             >
-              Marketing Analyst
+              Full-Stack Founder
             </Badge>
           </div>
 
@@ -42,7 +42,7 @@ export default function Header() {
                   href="#skills"
                   className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium font-mono text-gray-300 transition-colors hover:bg-white/10 hover:text-white focus:bg-white/10 focus:text-white focus:outline-none disabled:pointer-events-none disabled:opacity-50"
                 >
-                  Skills
+                  Tech Stack
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
@@ -50,7 +50,7 @@ export default function Header() {
                   href="#experience"
                   className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium font-mono text-gray-300 transition-colors hover:bg-white/10 hover:text-white focus:bg-white/10 focus:text-white focus:outline-none disabled:pointer-events-none disabled:opacity-50"
                 >
-                  Experience
+                  Portfolio
                 </NavigationMenuLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
@@ -61,6 +61,14 @@ export default function Header() {
                   Case Studies
                 </NavigationMenuLink>
               </NavigationMenuItem>
+              <NavigationMenuItem>
+                <NavigationMenuLink
+                  href="#gemini-fit"
+                  className="group inline-flex h-10 w-max items-center justify-center rounded-md bg-transparent px-4 py-2 text-sm font-medium font-mono text-primary transition-colors hover:bg-primary/10 hover:text-primary focus:bg-primary/10 focus:text-primary focus:outline-none disabled:pointer-events-none disabled:opacity-50"
+                >
+                  Why Gemini
+                </NavigationMenuLink>
+              </NavigationMenuItem>
             </NavigationMenuList>
           </NavigationMenu>
 
@@ -68,20 +76,25 @@ export default function Header() {
           <div className="hidden md:flex items-center space-x-4">
             <div className="flex items-center space-x-2">
               <a
-                href="mailto:contact@marketingpro.com"
+                href="mailto:mason@coreweaver.dev"
                 className="text-gray-300 hover:text-white transition-colors"
+                title="mason@coreweaver.dev"
               >
                 <Mail className="h-5 w-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/mason-coreweaver"
                 className="text-gray-300 hover:text-white transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Linkedin className="h-5 w-5" />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/mason-coreweaver"
                 className="text-gray-300 hover:text-white transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 <Github className="h-5 w-5" />
               </a>
@@ -92,13 +105,13 @@ export default function Header() {
               className="glass-bg border-glass-border text-white hover:bg-white/10 font-mono"
             >
               <Download className="mr-2 h-4 w-4" />
-              Resume
+              Portfolio
             </Button>
             <Button
               size="sm"
               className="bg-hero-gradient hover:opacity-90 text-white font-mono"
             >
-              Contact
+              Let's Talk
             </Button>
           </div>
 
