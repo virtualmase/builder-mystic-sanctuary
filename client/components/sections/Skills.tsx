@@ -78,23 +78,23 @@ const skillCategories = [
 
 const achievements = [
   {
-    metric: "6+",
-    label: "Web3 Applications",
+    metric: "190+",
+    label: "Markets Optimized",
     icon: <Code className="h-5 w-5" />,
   },
   {
-    metric: "100%",
-    label: "Security Audits Passed",
+    metric: "2.3s",
+    label: "LCP Improvement",
     icon: <TrendingUp className="h-5 w-5" />,
   },
   {
-    metric: "5+",
-    label: "Blockchain Networks",
+    metric: "25%",
+    label: "Efficiency Gained",
     icon: <BarChart3 className="h-5 w-5" />,
   },
   {
-    metric: "3 Years",
-    label: "DeFi Experience",
+    metric: "100%",
+    label: "Schema Coverage",
     icon: <Zap className="h-5 w-5" />,
   },
 ];

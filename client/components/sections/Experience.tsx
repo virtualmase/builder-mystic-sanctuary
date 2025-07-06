@@ -42,13 +42,13 @@ const experiences = [
     description:
       "Led comprehensive technical SEO optimization for leading global cryptocurrency exchange handling thousands of market and educational pages. Managed complex architecture, international hreflang implementation, and cross-functional collaboration across content, UX, marketing, engineering, and security teams.",
     achievements: [
-      "Achieved +85% organic traffic growth through advanced technical SEO strategies",
-      "Improved page load performance by +40% via image optimization, WebP conversions, and CDN tuning",
-      "Enhanced team efficiency by +60% through SEO automation dashboards and reporting systems",
-      "Implemented comprehensive hreflang coverage for 190+ international regions",
-      "Executed advanced schema markup (Currency, FAQPage, Review, Product, FinancialProduct)",
-      "Optimized Core Web Vitals (LCP, INP, CLS) and mobile-first design architecture",
-      "Reduced technical debt through systematic JavaScript rendering and crawl efficiency improvements",
+      "Implemented comprehensive hreflang structure covering 190+ international markets",
+      "Improved Core Web Vitals with 2.3s LCP reduction across trading pair pages",
+      "Executed advanced schema markup for Currency, FAQPage, Review, and FinancialProduct types",
+      "Built automated SEO monitoring dashboards reducing manual reporting tasks by 25%",
+      "Enhanced crawl efficiency through systematic JavaScript rendering optimization",
+      "Collaborated with engineering teams on mobile-first design improvements",
+      "Reduced technical debt through proactive monitoring and issue identification systems",
     ],
     technologies: [
       "Google Search Console",
