@@ -4,12 +4,11 @@ import { ArrowRight, MapPin, Calendar } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative overflow-hidden min-h-screen flex items-center">
-      {/* Radial gradient backgrounds */}
-      <div className="absolute inset-0 bg-radial-purple" />
-      <div className="absolute inset-0 bg-radial-pink" />
-      <div className="absolute inset-0 bg-radial-blue" />
-      <div className="absolute inset-0 bg-grid-dark opacity-30" />
+    <section className="relative overflow-hidden min-h-screen flex items-center bg-background">
+      {/* More visible gradient backgrounds */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-accent/10" />
+      <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-primary/5 to-transparent" />
+      <div className="absolute inset-0 bg-grid-dark opacity-20" />
 
       <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
