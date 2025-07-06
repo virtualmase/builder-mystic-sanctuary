@@ -139,7 +139,7 @@ export default function Experience() {
                     <CardTitle className="text-xl text-white mb-2 font-mono">
                       {exp.title}
                     </CardTitle>
-                    <CardDescription className="text-lg font-medium text-gray-300 mb-3 font-mono">
+                    <CardDescription className="text-lg font-medium text-gray-100 mb-3 font-mono">
                       {exp.company}
                     </CardDescription>
                     <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4 text-sm text-gray-400 font-mono">
