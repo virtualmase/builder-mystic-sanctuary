@@ -30,11 +30,11 @@ export default function Hero() {
               </h1>
             </div>
 
-            <p className="text-xl text-readable-secondary leading-relaxed max-w-2xl font-mono">
-              Blockchain Security Architect transitioning to marketing
-              operations. Deep expertise in on-chain analytics, DeFi protocols,
-              and Web3 infrastructure with data-driven approach to growth
-              marketing.
+            <p className="text-xl text-white leading-relaxed max-w-2xl font-mono">
+              Where blockchain architecture meets marketing automation. Building
+              the future of growth operations with AI-powered insights, on-chain
+              analytics, and scalable Web3 marketing infrastructure that
+              traditional operators can't match.
             </p>
 
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 text-sm text-readable-muted font-mono">
