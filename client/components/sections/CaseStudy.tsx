@@ -194,10 +194,10 @@ export default function CaseStudy() {
         {/* Process Timeline */}
         <div className="mb-16">
           <div className="text-center mb-12">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+            <h3 className="text-2xl font-bold text-white mb-4 font-mono">
               Project Process & Timeline
             </h3>
-            <p className="text-gray-600 max-w-2xl mx-auto">
+            <p className="text-gray-200 max-w-2xl mx-auto font-mono">
               A systematic approach ensuring quality delivery and measurable
               results at each phase.
             </p>
@@ -207,19 +207,19 @@ export default function CaseStudy() {
             {processSteps.map((step, index) => (
               <Card
                 key={index}
-                className="border border-gray-200 hover:shadow-md transition-shadow duration-200"
+                className="glass-bg border border-glass-border hover:box-shadow-glow transition-all duration-200"
               >
                 <CardHeader>
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                     <div className="flex items-center gap-4">
-                      <div className="flex items-center justify-center w-10 h-10 bg-blue-500 text-white rounded-full font-bold">
+                      <div className="flex items-center justify-center w-10 h-10 bg-primary text-white rounded-full font-bold font-mono">
                         {index + 1}
                       </div>
                       <div>
-                        <CardTitle className="text-lg text-gray-900">
+                        <CardTitle className="text-lg text-white font-mono">
                           {step.phase}
                         </CardTitle>
-                        <CardDescription className="text-gray-600">
+                        <CardDescription className="text-gray-200 font-mono">
                           Duration: {step.duration}
                         </CardDescription>
                       </div>
@@ -229,23 +229,23 @@ export default function CaseStudy() {
                 <CardContent>
                   <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
                     <div className="lg:col-span-2">
-                      <h4 className="font-semibold text-gray-900 mb-3">
+                      <h4 className="font-bold text-white mb-3 font-mono">
                         Key Activities
                       </h4>
                       <ul className="space-y-2">
                         {step.activities.map((activity, actIndex) => (
                           <li
                             key={actIndex}
-                            className="flex items-start gap-3 text-gray-600"
+                            className="flex items-start gap-3 text-gray-200 font-mono"
                           >
-                            <CheckCircle2 className="h-4 w-4 text-green-500 mt-0.5 flex-shrink-0" />
+                            <CheckCircle2 className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
                             <span>{activity}</span>
                           </li>
                         ))}
                       </ul>
                     </div>
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-3">
+                      <h4 className="font-bold text-white mb-3 font-mono">
                         Tools Used
                       </h4>
                       <div className="flex flex-wrap gap-2">
@@ -253,7 +253,7 @@ export default function CaseStudy() {
                           <Badge
                             key={toolIndex}
                             variant="outline"
-                            className="bg-white border-gray-200 text-gray-700"
+                            className="glass-bg border-glass-border text-gray-200 font-mono"
                           >
                             {tool}
                           </Badge>
