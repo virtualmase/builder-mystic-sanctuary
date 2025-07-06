@@ -135,15 +135,16 @@ export default function Skills() {
             variant="secondary"
             className="glass-bg text-primary border-0 mb-4 px-4 py-2 font-mono"
           >
-            Marketing Operations Analyst
+            Full-Stack Marketing Technology
           </Badge>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 font-mono">
-            Tactical Execution & QA Expertise
+            Technical Architecture + Growth Operations
           </h2>
           <p className="text-xl text-white max-w-3xl mx-auto font-mono">
-            Specialized in Builder.io, Contentful, technical SEO, and
-            go-to-market launch support marketing operations to build the future
-            of growth in Web3, DeFi, and beyond.
+            End-to-end technology stack combining blockchain development
+            expertise with proven marketing operations success. Built for crypto
+            companies that need both technical credibility and measurable growth
+            results.
           </p>
         </div>
 
@@ -210,13 +211,12 @@ export default function Skills() {
         <div className="mt-16 glass-bg rounded-2xl p-8 border border-glass-border">
           <div className="text-center mb-8">
             <h3 className="text-2xl font-bold text-white mb-4 font-mono">
-              Building the Future of Growth Marketing
+              Perfect Fit for Gemini's Growth Trajectory
             </h3>
             <p className="text-white max-w-2xl mx-auto font-mono">
-              Architecting next-generation marketing operations where AI meets
-              blockchain, traditional growth tactics evolve into Web3-native
-              strategies, and automation scales beyond what current marketing
-              teams can achieve.
+              Combining deep crypto market understanding with proven technical
+              marketing capabilities. Ready to bridge Gemini's engineering
+              excellence with data-driven growth operations that scale globally.
             </p>
           </div>
 
