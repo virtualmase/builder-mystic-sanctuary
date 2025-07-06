@@ -36,6 +36,13 @@ const skillCategories = [
     color: "bg-primary",
   },
   {
+    title: "AI & Content Generation",
+    description: "Next-gen AI tools for creative content production",
+    icon: <Zap className="h-6 w-6" />,
+    skills: ["Sora", "Whisk", "Google Labs", "Manus", "Veo3"],
+    color: "bg-primary",
+  },
+  {
     title: "SEO & Analytics",
     description: "Technical SEO and performance monitoring",
     icon: <BarChart3 className="h-6 w-6" />,
