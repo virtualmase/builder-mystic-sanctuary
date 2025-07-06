@@ -86,11 +86,11 @@ export default function Hero() {
                     <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0 glow-blue" />
                     <div>
                       <p className="font-medium text-white font-mono">
-                        6+ Web3 Applications Built
+                        190+ International Markets
                       </p>
-                      <p className="text-sm text-readable-secondary font-mono">
-                        Including DeFi platforms, analytics tools, and
-                        infrastructure
+                      <p className="text-sm text-gray-200 font-mono">
+                        Comprehensive hreflang implementation for global crypto
+                        exchange
                       </p>
                     </div>
                   </div>
@@ -98,11 +98,11 @@ export default function Hero() {
                   <div className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0" />
                     <div>
-                      <p className="font-medium text-readable font-mono">
-                        On-Chain Analytics Expertise
+                      <p className="font-medium text-white font-mono">
+                        Core Web Vitals Optimization
                       </p>
-                      <p className="text-sm text-readable-secondary font-mono">
-                        Data visualization and performance metrics for DeFi
+                      <p className="text-sm text-gray-200 font-mono">
+                        2.3s LCP improvement across thousands of trading pages
                       </p>
                     </div>
                   </div>
@@ -110,12 +110,11 @@ export default function Hero() {
                   <div className="flex items-start gap-3">
                     <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0" />
                     <div>
-                      <p className="font-medium text-readable font-mono">
-                        Security Protocol Design
+                      <p className="font-medium text-white font-mono">
+                        Technical SEO Automation
                       </p>
-                      <p className="text-sm text-readable-secondary font-mono">
-                        Smart contract auditing and decentralized system
-                        architecture
+                      <p className="text-sm text-gray-200 font-mono">
+                        Built monitoring systems reducing manual SEO tasks
                       </p>
                     </div>
                   </div>
