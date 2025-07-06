@@ -30,7 +30,7 @@ export default function Header() {
               variant="secondary"
               className="bg-primary/20 text-primary text-xs border-0 font-mono"
             >
-              Blockchain Architect
+              Future of Growth Ops
             </Badge>
           </div>
 
