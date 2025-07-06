@@ -86,11 +86,11 @@ export default function Hero() {
                     <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0 glow-blue" />
                     <div>
                       <p className="font-medium text-white font-mono">
-                        Builder.io + Contentful Expert
+                        CMS & Content Operations
                       </p>
                       <p className="text-sm text-gray-200 font-mono">
-                        Landing page builds, QA processes, and content
-                        management
+                        Contentful, Builder.io, landing page builds, and QA
+                        processes
                       </p>
                     </div>
                   </div>
@@ -99,11 +99,11 @@ export default function Hero() {
                     <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0" />
                     <div>
                       <p className="font-medium text-white font-mono">
-                        Go-to-Market Launch Support
+                        Launch Coordination
                       </p>
                       <p className="text-sm text-gray-200 font-mono">
-                        Product page updates, campaign URLs, and launch QA
-                        coordination
+                        Product launches, asset management, and cross-functional
+                        QA
                       </p>
                     </div>
                   </div>
@@ -112,11 +112,11 @@ export default function Hero() {
                     <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0" />
                     <div>
                       <p className="font-medium text-white font-mono">
-                        SEO Operations & Reporting
+                        Technical SEO & Analytics
                       </p>
                       <p className="text-sm text-gray-200 font-mono">
-                        Metadata updates, performance monitoring, and traffic
-                        analysis
+                        Performance monitoring, metadata optimization, and
+                        reporting
                       </p>
                     </div>
                   </div>
