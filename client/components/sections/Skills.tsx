@@ -110,15 +110,15 @@ export default function Skills() {
             variant="secondary"
             className="glass-bg text-primary border-0 mb-4 px-4 py-2 font-mono"
           >
-            Core Expertise & Capabilities
+            Future-Ready Capabilities
           </Badge>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 font-mono">
-            Blockchain Architecture Skills
+            Next-Gen Marketing Operations Stack
           </h2>
-          <p className="text-xl text-readable-secondary max-w-3xl mx-auto font-mono">
-            Deep technical expertise in blockchain infrastructure, on-chain
-            analytics, and Web3 security protocols with data-driven approach to
-            ecosystem growth.
+          <p className="text-xl text-white max-w-3xl mx-auto font-mono">
+            Combining AI automation, blockchain infrastructure, and proven
+            marketing operations to build the future of growth in Web3, DeFi,
+            and beyond.
           </p>
         </div>
 
