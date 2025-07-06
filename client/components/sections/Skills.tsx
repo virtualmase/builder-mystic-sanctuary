@@ -110,15 +110,15 @@ export default function Skills() {
             variant="secondary"
             className="glass-bg text-primary border-0 mb-4 px-4 py-2 font-mono"
           >
-            Future-Ready Capabilities
+            Marketing Operations Analyst
           </Badge>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 font-mono">
-            Next-Gen Marketing Operations Stack
+            Tactical Execution & QA Expertise
           </h2>
           <p className="text-xl text-white max-w-3xl mx-auto font-mono">
-            Combining AI automation, blockchain infrastructure, and proven
-            marketing operations to build the future of growth in Web3, DeFi,
-            and beyond.
+            Specialized in Builder.io, Contentful, technical SEO, and
+            go-to-market launch support marketing operations to build the future
+            of growth in Web3, DeFi, and beyond.
           </p>
         </div>
 
