@@ -268,46 +268,49 @@ export default function CaseStudy() {
         </div>
 
         {/* Results & Impact */}
-        <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-2xl p-8 border border-blue-100">
+        <div className="glass-bg rounded-2xl p-8 border border-glass-border">
           <div className="text-center mb-8">
-            <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Results & Business Impact
+            <h3 className="text-2xl font-bold text-white mb-4 font-mono">
+              Results & Future Impact
             </h3>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              The optimization project delivered significant improvements across
-              all key performance indicators.
+            <p className="text-gray-200 max-w-2xl mx-auto font-mono">
+              This foundation sets the stage for next-generation marketing
+              operations that combine AI automation with blockchain-native
+              understanding.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="text-center p-6 bg-white rounded-lg shadow-sm border border-gray-100">
-              <Search className="h-8 w-8 text-blue-500 mx-auto mb-3" />
-              <h4 className="font-semibold text-gray-900 mb-2">SEO Impact</h4>
-              <p className="text-sm text-gray-600">
-                Improved search rankings for 50+ target keywords, with 40%
-                increase in organic traffic within 3 months
+            <div className="text-center p-6 bg-slate-900/80 rounded-lg border border-primary/20">
+              <Search className="h-8 w-8 text-primary mx-auto mb-3" />
+              <h4 className="font-bold text-white mb-2 font-mono">
+                SEO Innovation
+              </h4>
+              <p className="text-sm text-gray-200 font-mono">
+                Advanced hreflang & schema implementation across 190+ regions,
+                setting foundation for AI-powered SEO automation
               </p>
             </div>
 
-            <div className="text-center p-6 bg-white rounded-lg shadow-sm border border-gray-100">
-              <BarChart3 className="h-8 w-8 text-green-500 mx-auto mb-3" />
-              <h4 className="font-semibold text-gray-900 mb-2">
-                Performance Gains
+            <div className="text-center p-6 bg-slate-900/80 rounded-lg border border-primary/20">
+              <BarChart3 className="h-8 w-8 text-green-400 mx-auto mb-3" />
+              <h4 className="font-bold text-white mb-2 font-mono">
+                Performance Engineering
               </h4>
-              <p className="text-sm text-gray-600">
-                85% improvement in page load times and Core Web Vitals scores
-                across all landing pages
+              <p className="text-sm text-gray-200 font-mono">
+                40% performance improvement through technical architecture that
+                enables real-time data optimization
               </p>
             </div>
 
-            <div className="text-center p-6 bg-white rounded-lg shadow-sm border border-gray-100">
-              <Users className="h-8 w-8 text-purple-500 mx-auto mb-3" />
-              <h4 className="font-semibold text-gray-900 mb-2">
-                User Experience
+            <div className="text-center p-6 bg-slate-900/80 rounded-lg border border-primary/20">
+              <Users className="h-8 w-8 text-purple-400 mx-auto mb-3" />
+              <h4 className="font-bold text-white mb-2 font-mono">
+                Scalable Systems
               </h4>
-              <p className="text-sm text-gray-600">
-                28% increase in conversion rates and 35% reduction in bounce
-                rate across optimized pages
+              <p className="text-sm text-gray-200 font-mono">
+                60% efficiency gain through automation frameworks that scale
+                marketing operations for global crypto platforms
               </p>
             </div>
           </div>
