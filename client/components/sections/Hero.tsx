@@ -21,9 +21,11 @@ export default function Hero() {
               >
                 &gt; Blockchain Architect → Marketing Operations
               </Badge>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-mono tracking-tight text-white">
-                Technical Marketing
-                <span className="gradient-text block text-shadow-glow">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-mono tracking-tight">
+                <span className="text-white drop-shadow-lg">
+                  Technical Marketing
+                </span>
+                <span className="block text-primary drop-shadow-lg text-shadow-glow">
                   for Crypto Infrastructure
                 </span>
               </h1>
@@ -50,23 +52,23 @@ export default function Hero() {
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
               <Button
                 size="lg"
-                className="bg-hero-gradient hover:opacity-90 text-white shadow-lg box-shadow-glow transition-all duration-200 font-mono"
+                className="bg-primary hover:bg-primary/90 text-white shadow-lg hover:shadow-xl transition-all duration-200 font-mono border border-primary/20"
               >
-                View Crypto Marketing Experience
+                View Portfolio & Experience
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
               <Button
                 variant="outline"
                 size="lg"
-                className="glass-bg border-glass-border text-white hover:bg-glass/80 font-mono"
+                className="border-2 border-primary/40 text-primary hover:bg-primary/10 hover:border-primary/60 font-mono backdrop-blur-sm"
               >
-                Apply to Gemini
+                Download Resume
               </Button>
             </div>
           </div>
 
           <div className="relative">
-            <div className="relative p-8 glass-bg rounded-2xl box-shadow-glow">
+            <div className="relative p-8 bg-slate-900/80 backdrop-blur-xl rounded-2xl border border-primary/20 shadow-2xl">
               <div className="space-y-6">
                 <div className="flex items-center justify-between">
                   <h3 className="text-lg font-semibold text-white font-mono">
@@ -74,7 +76,7 @@ export default function Hero() {
                   </h3>
                   <Badge
                     variant="secondary"
-                    className="bg-primary/20 text-primary border-0 font-mono"
+                    className="bg-primary/30 text-primary border border-primary/40 font-mono"
                   >
                     Blockchain Expert
                   </Badge>
