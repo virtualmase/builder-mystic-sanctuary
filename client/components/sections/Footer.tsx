@@ -25,16 +25,18 @@ export default function Footer() {
               variant="secondary"
               className="bg-primary/20 text-primary border border-primary/30 mb-6 px-4 py-2 font-mono"
             >
-              &gt; Ready to Collaborate
+              &gt; Let's Build Gemini's Future Together
             </Badge>
             <h2 className="text-3xl sm:text-4xl font-bold mb-6 font-mono text-readable">
-              Ready to Bridge Technical Innovation
-              <span className="block text-primary">with Growth Marketing?</span>
+              Full-Stack Marketing Founder
+              <span className="block text-primary">
+                Ready for Gemini's Next Chapter
+              </span>
             </h2>
             <p className="text-xl text-readable-secondary mb-8 font-mono leading-relaxed">
-              Combining deep blockchain architecture expertise with proven SEO
-              and marketing operations experience. Let's discuss how technical
-              precision can drive measurable growth results.
+              From blockchain architecture to marketing operations excellence. I
+              bring the technical credibility and proven growth results that
+              Gemini needs to accelerate its marketing transformation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -71,14 +73,14 @@ export default function Footer() {
                   Mason
                 </span>
                 <span className="text-sm text-primary font-mono">
-                  Blockchain → Marketing Operations
+                  Full-Stack Marketing Founder
                 </span>
               </div>
             </div>
             <p className="text-readable-secondary mb-6 max-w-md font-mono leading-relaxed">
-              Blockchain Security Architect with proven SEO and marketing
-              operations experience. Bridging technical innovation with growth
-              marketing for crypto and fintech companies.
+              Technical founder and blockchain architect who scaled Kraken's SEO
+              operations. Combining 9+ production Web3 applications with proven
+              marketing operations expertise for crypto companies.
             </p>
             <div className="flex items-center space-x-6">
               <a
@@ -109,19 +111,19 @@ export default function Footer() {
             </h3>
             <div className="space-y-3 text-readable-secondary font-mono text-sm">
               <div className="hover:text-primary transition-colors cursor-pointer">
+                → Full-Stack Development
+              </div>
+              <div className="hover:text-primary transition-colors cursor-pointer">
+                → Crypto Exchange SEO
+              </div>
+              <div className="hover:text-primary transition-colors cursor-pointer">
+                → Builder.io + Contentful
+              </div>
+              <div className="hover:text-primary transition-colors cursor-pointer">
+                → AI Marketing Automation
+              </div>
+              <div className="hover:text-primary transition-colors cursor-pointer">
                 → Blockchain Architecture
-              </div>
-              <div className="hover:text-primary transition-colors cursor-pointer">
-                → Technical SEO
-              </div>
-              <div className="hover:text-primary transition-colors cursor-pointer">
-                → On-Chain Analytics
-              </div>
-              <div className="hover:text-primary transition-colors cursor-pointer">
-                → Marketing Operations
-              </div>
-              <div className="hover:text-primary transition-colors cursor-pointer">
-                → Web3 Infrastructure
               </div>
             </div>
           </div>
@@ -173,9 +175,11 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-slate-800/50 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <div className="flex items-center gap-4 text-readable-muted text-sm font-mono">
-            <span>© 2025 Mason. All rights reserved.</span>
+            <span>© 2025 Mason | Full-Stack Marketing Founder</span>
             <span className="hidden sm:block">•</span>
-            <span className="text-primary">Built with precision & passion</span>
+            <span className="text-primary">
+              Ready for Gemini's next chapter
+            </span>
           </div>
           <button
             onClick={scrollToTop}
