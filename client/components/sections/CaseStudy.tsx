@@ -141,15 +141,17 @@ export default function CaseStudy() {
           {caseStudyData.metrics.map((metric, index) => (
             <div
               key={index}
-              className="text-center p-6 bg-gray-50 rounded-xl border border-gray-100"
+              className="text-center p-6 glass-bg rounded-xl border border-glass-border"
             >
               <div className={`flex justify-center mb-3 ${metric.color}`}>
                 {metric.icon}
               </div>
-              <div className="text-3xl font-bold text-gray-900 mb-1">
+              <div className="text-3xl font-bold text-white mb-1 font-mono">
                 {metric.value}
               </div>
-              <div className="text-sm text-gray-600">{metric.label}</div>
+              <div className="text-sm text-gray-200 font-mono">
+                {metric.label}
+              </div>
             </div>
           ))}
         </div>
