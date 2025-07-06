@@ -162,7 +162,7 @@ export default function Experience() {
                 </div>
               </CardHeader>
               <CardContent className="space-y-6">
-                <p className="text-gray-300 leading-relaxed font-mono">
+                <p className="text-white leading-relaxed font-mono">
                   {exp.description}
                 </p>
 
