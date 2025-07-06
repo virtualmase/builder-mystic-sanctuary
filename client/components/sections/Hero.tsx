@@ -71,13 +71,13 @@ export default function Hero() {
               <div className="space-y-6">
                 <div className="flex items-center justify-between">
                   <h3 className="text-lg font-semibold text-white font-mono">
-                    Technical Achievements
+                    Core Capabilities
                   </h3>
                   <Badge
                     variant="secondary"
                     className="bg-primary/30 text-primary border border-primary/40 font-mono"
                   >
-                    Blockchain Expert
+                    Marketing Ops
                   </Badge>
                 </div>
 
