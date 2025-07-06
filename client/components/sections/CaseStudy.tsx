@@ -117,21 +117,25 @@ const processSteps = [
 
 export default function CaseStudy() {
   return (
-    <section className="py-20 bg-white">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-20 bg-background relative">
+      <div className="absolute inset-0 bg-radial-blue opacity-10" />
+      <div className="absolute inset-0 bg-grid-dark opacity-10" />
+      <div className="container relative mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
           <Badge
             variant="secondary"
-            className="bg-purple-100 text-purple-700 mb-4 px-4 py-2"
+            className="glass-bg text-primary border-0 mb-4 px-4 py-2 font-mono"
           >
             Featured Case Study
           </Badge>
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 font-mono">
             {caseStudyData.title}
           </h2>
-          <p className="text-xl text-gray-600 mb-8">{caseStudyData.subtitle}</p>
-          <p className="text-gray-600 max-w-4xl mx-auto leading-relaxed">
+          <p className="text-xl text-primary mb-8 font-mono">
+            {caseStudyData.subtitle}
+          </p>
+          <p className="text-gray-200 max-w-4xl mx-auto leading-relaxed font-mono">
             {caseStudyData.overview}
           </p>
         </div>
