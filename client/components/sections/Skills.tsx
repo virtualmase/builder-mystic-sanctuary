@@ -185,12 +185,13 @@ export default function Skills() {
         <div className="mt-16 glass-bg rounded-2xl p-8 border border-glass-border">
           <div className="text-center mb-8">
             <h3 className="text-2xl font-bold text-white mb-4 font-mono">
-              Crypto & Web3 Expertise
+              Building the Future of Growth Marketing
             </h3>
-            <p className="text-gray-300 max-w-2xl mx-auto font-mono">
-              Deep understanding of cryptocurrency ecosystem, DeFi protocols,
-              and Web3 marketing strategies with passion for blockchain
-              innovation.
+            <p className="text-white max-w-2xl mx-auto font-mono">
+              Architecting next-generation marketing operations where AI meets
+              blockchain, traditional growth tactics evolve into Web3-native
+              strategies, and automation scales beyond what current marketing
+              teams can achieve.
             </p>
           </div>
 
