@@ -30,7 +30,7 @@ export default function Header() {
               variant="secondary"
               className="bg-primary/20 text-primary text-xs border-0 font-mono"
             >
-              Future of Growth Ops
+              Marketing Analyst
             </Badge>
           </div>
 

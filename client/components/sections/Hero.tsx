@@ -18,14 +18,14 @@ export default function Hero() {
                 variant="secondary"
                 className="glass-bg text-primary border-0 px-4 py-2 text-sm font-mono font-medium"
               >
-                &gt; Building the Future of Growth Marketing
+                &gt; Ready for Analyst, Product & Web Marketing
               </Badge>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-mono tracking-tight">
                 <span className="text-white drop-shadow-lg">
-                  Next-Gen Marketing Operations
+                  Marketing Operations Analyst
                 </span>
                 <span className="block text-primary drop-shadow-lg text-shadow-glow">
-                  for Web3 & AI-Driven Growth
+                  Builder.io + Technical SEO Expert
                 </span>
               </h1>
             </div>
@@ -86,11 +86,11 @@ export default function Hero() {
                     <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0 glow-blue" />
                     <div>
                       <p className="font-medium text-white font-mono">
-                        190+ International Markets
+                        Builder.io + Contentful Expert
                       </p>
                       <p className="text-sm text-gray-200 font-mono">
-                        Comprehensive hreflang implementation for global crypto
-                        exchange
+                        Landing page builds, QA processes, and content
+                        management
                       </p>
                     </div>
                   </div>
@@ -99,10 +99,11 @@ export default function Hero() {
                     <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0" />
                     <div>
                       <p className="font-medium text-white font-mono">
-                        Core Web Vitals Optimization
+                        Go-to-Market Launch Support
                       </p>
                       <p className="text-sm text-gray-200 font-mono">
-                        2.3s LCP improvement across thousands of trading pages
+                        Product page updates, campaign URLs, and launch QA
+                        coordination
                       </p>
                     </div>
                   </div>
@@ -111,10 +112,11 @@ export default function Hero() {
                     <div className="w-2 h-2 bg-cyan-400 rounded-full mt-2 flex-shrink-0" />
                     <div>
                       <p className="font-medium text-white font-mono">
-                        Technical SEO Automation
+                        SEO Operations & Reporting
                       </p>
                       <p className="text-sm text-gray-200 font-mono">
-                        Built monitoring systems reducing manual SEO tasks
+                        Metadata updates, performance monitoring, and traffic
+                        analysis
                       </p>
                     </div>
                   </div>
